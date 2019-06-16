@@ -30,7 +30,7 @@ console.log(fresa.slap())
 const { Client, Attachment } = require('discord.js');
 const fresa = rquiere('fresaapi');
 
-const const attachment = new Attachment(fresa.slap());
+const attachment = new Attachment(fresa.slap());
 
 message.channel.send(attachment)
 ```
