@@ -1,7 +1,7 @@
 Api Fresa
 =================
 
-Este es un npm de multimedia como gifs y imagenes
+Este es un npm de multimedia como gifs y imagenes (Le pondre más contenido mutimedia en proximas actualizaciones)
 
 Instalación
 -----------
