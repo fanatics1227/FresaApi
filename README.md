@@ -15,8 +15,8 @@ $ pnpm i fresaapi
 $ npm i fresaapi
 ```
 
-====================
 Uso
+---
 
 
 _Ejemplo_
