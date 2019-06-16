@@ -40,7 +40,7 @@ console.log(fresa.slap())
 
 // Discord.js
 const { Client, Attachment } = require('discord.js');
-const fresa = requiere('fresaapi');
+const fresa = require('fresaapi');
 
 const attachment = new Attachment(fresa.slap());
 
@@ -50,6 +50,6 @@ message.channel.send(attachment)
 Info
 -----
 - Discord: @SM★fanatics1227#3309 
-- Youtube: [fanatics1227]()
+- Youtube: [fanatics1227](https://www.youtube.com/channel/UCJbj6jt-6ddOxgUf7OA2rhg)
 - Instagram: [fanatics1227](https://instagram.com/fanatics1227)
 - Twitter: [@fanatics1227](https://twitter.com/@fanatics1227)
