@@ -40,7 +40,7 @@ console.log(fresa.slap())
 
 // Discord.js
 const { Client, Attachment } = require('discord.js');
-const fresa = rquiere('fresaapi');
+const fresa = requiere('fresaapi');
 
 const attachment = new Attachment(fresa.slap());
 
