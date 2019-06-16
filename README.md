@@ -3,8 +3,8 @@ Api Fresa
 
 Este es un npm de multimedia como gifs y imagenes
 
-#Instalación
-
+Instalación
+-----------
 
 
 ```js
@@ -15,8 +15,8 @@ $ pnpm i fresaapi
 $ npm i fresaapi
 ```
 
-
-#Uso
+====================
+Uso
 
 
 _Ejemplo_
