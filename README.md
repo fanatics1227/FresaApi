@@ -19,9 +19,18 @@ Uso
 ---
 
 
-_Ejemplo_
+_Ejemplos_
 
 ```js
-const fresa = require('fresaapi')
+// Normal
+const fresa = require('fresaapi');
 console.log(fresa.slap())
+
+// Discord.js
+const Discord = require('discord.js');
+const fresa = rquiere('fresaapi');
+
+const const attachment = new Attachment(fresa.slap());
+
+message.channel.send(attachment)
 ```
