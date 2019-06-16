@@ -14,7 +14,19 @@ $ pnpm i fresaapi
 // Normal
 $ npm i fresaapi
 ```
-
+Gifs
+----
+```js
+fresa.slap()
+fresa.hug()
+fresa.cry()
+fresa.fusion()
+```
+Imagenes
+--------
+```js
+fresa.meme()
+```
 Uso
 ---
 
