@@ -1,7 +1,7 @@
 {
   "name": "fresaapi",
-  "version": "0.1.2",
-  "description": "Una Npm de multi media",
+  "version": "0.1.3",
+  "description": "Una Npm de multimedia",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
