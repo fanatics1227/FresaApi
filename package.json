@@ -1,6 +1,6 @@
 {
   "name": "fresaapi",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "description": "Una Npm de multimedia",
   "main": "index.js",
   "scripts": {
@@ -10,6 +10,11 @@
     "type": "git",
     "url": "git+https://github.com/fanatics1227/FresaApi.git"
   },
+  "keywords": [
+    "Multimedia",
+    "Gifs",
+    "Imagenes"
+  ],
   "author": "fanatics1227",
   "license": "ISC",
   "bugs": {
