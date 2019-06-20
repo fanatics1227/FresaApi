@@ -1,6 +1,6 @@
 {
   "name": "fresaapi",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "description": "Una Npm de multimedia",
   "main": "index.js",
   "scripts": {
@@ -13,7 +13,9 @@
   "keywords": [
     "Multimedia",
     "Gifs",
-    "Imagenes"
+    "Imagenes",
+    "Fresa Api",
+    "Discord"
   ],
   "author": "fanatics1227",
   "license": "ISC",

@@ -24,6 +24,7 @@ fresa.fusion()
 fresa.kill()
 fresa.pat()
 fresa.kiss()
+fresa.suicide()
 ```
 Imagenes
 --------

@@ -14,6 +14,8 @@ var pat1 = require("./gifs/pat.json");
 
 var kiss1 = require("./gifs/kiss.json");
 
+var suicide1 = require("./gifs/suicide.json");
+
   /**
    * @returns {string}
    */
@@ -51,6 +53,10 @@ var kiss1 = require("./gifs/kiss.json");
      return kiss1[Math.floor(Math.random() * kiss1.length)]
    }
 
+   function suicide() {
+     return suicide1[Math.floor(Math.random() * suicide1.length)]
+   }
+
    module.exports = {
     slap,
     hug,
@@ -59,6 +65,7 @@ var kiss1 = require("./gifs/kiss.json");
     meme,
     kill,
     pat,
-    kiss
+    kiss,
+    suicide
   }
 
