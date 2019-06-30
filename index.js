@@ -57,6 +57,9 @@ var suicide1 = require("./gifs/suicide.json");
      return suicide1[Math.floor(Math.random() * suicide1.length)]
    }
 
+
+
+
    module.exports = {
     slap,
     hug,
