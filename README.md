@@ -1,7 +1,7 @@
-[Api Fresa](https://apifresa.glitch.me/)
+[Fresa Api](https://apifresa.glitch.me/)
 =================
 
-Este es un npm de multimedia como gifs y imagenes (Le pondre más contenido mutimedia en proximas actualizaciones)
+Esta es una api de multimedia como gifs y imagenes (Le pondre más contenido mutimedia en proximas actualizaciones)
 
 Instalación
 -----------
@@ -14,6 +14,14 @@ $ pnpm i fresaapi
 // Normal
 $ npm i fresaapi
 ```
+
+Uso
+----
+```js
+const Fresa = require("fresaapi");
+const fresa = new Fresa.FresaApi();
+```
+
 Gifs
 ----
 ```js
@@ -26,6 +34,7 @@ fresa.pat()
 fresa.kiss()
 fresa.suicide()
 ```
+
 Imagenes
 --------
 ```js
@@ -35,20 +44,16 @@ Uso
 ---
 
 
-_Ejemplos_
+_Ejemplo_
 
 ```js
-// Normal
-const fresa = require('fresaapi');
-console.log(fresa.slap())
-
 // Discord.js
-const { Client, Attachment } = require('discord.js');
-const fresa = require('fresaapi');
+const Fresa = require('fresaapi');
+const fresa = new Fresa.FresaApi();
 
-const attachment = new Attachment(fresa.slap());
+let slap = await fresa.slap()
 
-message.channel.send(attachment)
+message.channel.send({files: [slap]})
 ```
 
 Info

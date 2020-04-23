@@ -1,10 +1,10 @@
 {
   "name": "fresaapi",
-  "version": "0.1.7",
+  "version": "0.1.8",
   "description": "Una Npm de multimedia",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon --exec node src/index"
   },
   "repository": {
     "type": "git",
@@ -25,5 +25,8 @@
   "homepage": "https://github.com/fanatics1227/FresaApi#readme",
   "dependencies": {
     "node-superfetch": "^0.1.9"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.3"
   }
 }
