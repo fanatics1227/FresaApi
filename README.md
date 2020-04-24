@@ -1,7 +1,7 @@
 [Fresa Api](https://apifresa.glitch.me/)
 =================
 
-Esta es una api de multimedia como gifs y imagenes (Le pondre más contenido mutimedia en proximas actualizaciones)
+Esta es una Wrapper para Fresa Api. Una api de multimedia con gifs e imagenes.
 
 Instalación
 -----------
@@ -17,10 +17,13 @@ $ npm i fresaapi
 
 Uso
 ----
+Para poder usar la api nesecitaremos un key el cual puedes obtener [Aqui](https://apifresa.glitch.me/panel)
+
 ```js
 const Fresa = require("fresaapi");
-const fresa = new Fresa.FresaApi();
+const fresa = new Fresa.FresaApi("TU KEY");
 ```
+
 
 Gifs
 ----
@@ -49,7 +52,7 @@ _Ejemplo_
 ```js
 // Discord.js
 const Fresa = require('fresaapi');
-const fresa = new Fresa.FresaApi();
+const fresa = new Fresa.FresaApi("TU KEY");
 
 let slap = await fresa.slap()
 

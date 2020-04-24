@@ -1,10 +1,11 @@
 {
   "name": "fresaapi",
-  "version": "0.1.9",
-  "description": "Una Npm de multimedia",
+  "version": "0.2.0",
+  "description": "Wrapper de para Fresa Api",
   "main": "src/index.js",
   "scripts": {
-    "start": "nodemon --exec node src/index"
+    "start": "nodemon --exec node src/index",
+    "test": "nodemon --exec node test/test"
   },
   "repository": {
     "type": "git",
