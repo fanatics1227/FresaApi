@@ -23,7 +23,7 @@
   "bugs": {
     "url": "https://github.com/fanatics1227/FresaApi/issues"
   },
-  "homepage": "https://github.com/fanatics1227/FresaApi#readme",
+  "homepage": "https://apifresa.glitch.me/",
   "dependencies": {
     "node-superfetch": "^0.1.9"
   },
