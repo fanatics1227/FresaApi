@@ -11,7 +11,11 @@ class FresaApiError extends TypeError {
 }
 
 class FresaApi {
+  /**
+   * @param {string} key 
+   */
   constructor(key){
+    if(typeof key !== "string") throw new FresaApiError("The key must be a string")
     if(!key) throw new FresaApiError("You must insert a valid key");
     this.key = key;
   }
