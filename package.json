@@ -1,6 +1,6 @@
 {
   "name": "fresaapi",
-  "version": "0.2.3",
+  "version": "0.2.4",
   "description": "Wrapper para Fresa Api",
   "main": "src/index.js",
   "scripts": {
@@ -29,5 +29,6 @@
   },
   "devDependencies": {
     "nodemon": "^2.0.3"
-  }
+  },
+  "publishConfig": { "registry": "https://npm.pkg.github.com/" }
 }
