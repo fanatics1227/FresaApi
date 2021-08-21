@@ -1,6 +1,6 @@
 {
   "name": "fresaapi",
-  "version": "0.2.4",
+  "version": "1.0.0",
   "description": "Wrapper para Fresa Api",
   "main": "src/index.js",
   "scripts": {
@@ -18,7 +18,7 @@
     "Fresa Api",
     "Discord"
   ],
-  "author": "fanatics1227",
+  "author": "fanatics1227_",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/fanatics1227/FresaApi/issues"
